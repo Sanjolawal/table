@@ -5,7 +5,7 @@
   .mainTable {
     width: 33%;
     background: white;
-    padding: 0 1vw 1vw 2vh;
+    padding: 0 1vw 2vh 1vw;
   }
   .tableH1 {
     text-align: center;
@@ -20,7 +20,6 @@
     color: rgb(0, 0, 0, 0.7);
   }
   .tableRow {
-    padding: 0 1vw 0 0.5vw;
     margin: 0 0 2vh 0;
     display: grid;
     grid-template-columns: 96% 4%;
@@ -45,18 +44,20 @@
   }
 }
 
-@media all and (max-width:1300px){
-     .mainTable {
+@media all and (max-width: 1300px) {
+  .mainTable {
     width: 50%;
   }
 }
 
-@media all and (max-width:1030px){
-     .mainTable {
+@media all and (max-width: 1030px) {
+  .mainTable {
     width: 70%;
+    padding: 0 2vw 2vh 2vw;
   }
-
-  @media all and (max-width:700px){
-     .mainTable {
+}
+@media all and (max-width: 700px) {
+  .mainTable {
     width: 90%;
   }
+}
